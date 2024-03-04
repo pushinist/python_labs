@@ -10,8 +10,6 @@ class MainWindow(QMainWindow):
         self.setWindowTitle('Заказ во "Вкусно и точка"')
 
         layout1 = QVBoxLayout()
-        layout2 = QVBoxLayout()
-        layout3 = QVBoxLayout()
 
         self.checkbox1 = QCheckBox('Чизбургер')
         self.checkbox2 = QCheckBox('Гамбургер')

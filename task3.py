@@ -66,6 +66,7 @@ class MainWindow(QMainWindow):
 
     def clicked(self):
         try:
+            self.button.setText("->")
             self.lcd4.display(str(int(self.textbox1.text()) / int(self.textbox2.text())))
             self.lcd1.display(str(int(self.textbox1.text()) + int(self.textbox2.text())))
             self.lcd2.display(str(int(self.textbox1.text()) - int(self.textbox2.text())))
